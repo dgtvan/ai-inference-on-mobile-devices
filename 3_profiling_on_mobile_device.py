@@ -46,7 +46,6 @@ selected_device = random.choice(devices)
 print(selected_device)
 
 # Convert Jupyter magic command to Python
-script_dir = os.path.dirname(os.path.abspath(__file__))
 sys.argv = [
     sys.argv[0],
     f"--device={selected_device}"
